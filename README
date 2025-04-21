@@ -1,3 +1,4 @@
+#Heading 1
 Project Overview
 
 In this project, the main goal is to analyse the relationship between food and energy prices, household income levels, and food consumption in the USA over the past 20 years. The project's  goal is to understand the fundamentals of how change in food prices relates to people buying trends. The dataset will combine public available food and energy prices, income level and consumption behaviors. Addinotliy, the dataset will be enriched with demographic and income-level information by region. This project focuses on analyzing socio economic factors that influence daily life behavior. Also it will include exploratory data analysis, statistical testing and machine learning models. 
