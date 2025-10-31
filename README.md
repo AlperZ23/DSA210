@@ -52,7 +52,7 @@ These datasets will enable an idea analysis of how card usage responds to balanc
 
 * **Time series visualization:** For selected cards, plot usage rate over time to identify immediate versus gradual responses to nerfs.
 
-  ## **Hypothesis**
+## **Hypothesis**
 
 * **Null Hypothesis (H₀):** Balance updates (nerfs) have no significant effect on card usage among high level players.
 
