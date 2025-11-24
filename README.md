@@ -59,5 +59,15 @@ To formally evaluate the impact of nerfs, the project will apply statistical hyp
 * **Variance in usage (F-test):**
    * For each nerfed card, compute the variance of its usage rate across decks/players in the pre- and post-update windows.
    * Use an **F-test** to compare pre- and post-update variances and assess whether nerfs make usage more or less concentrated (i.e., whether players behave more uniformly after the nerf).
-## **Hypotheses**
+* **Differences between brackets:**
+  * Compute the change in usage (post − pre) separately for Top 200 and Top 1000 players.
+  * Use two-sample tests (e.g., two-sample t-test) to check whether the average usage change differs significantly between competitive brackets. All tests can be conducted at a conventional significance level (e.g., α = 0.05). ##
+ **Hypotheses**
+ The project will use several concrete, testable hypotheses that correspond directly to the planned hypothesis tests. Let:
+ * \( \mu_{\text{pre}} \) = mean usage rate of a nerfed card in the 14 days before the update * \( \mu_{\text{post}} \) = mean usage rate of the same card in the 14 days after the update
+ * \( \sigma^2_{\text{pre}} \) = variance of usage rates before the update * \( \sigma^2_{\text{post}} \) = variance of usage rates after the update * \( \Delta \mu_{\text{Top200}} \) = average change in usage (post − pre) for nerfed cards among Top 200 players
+ * \( \Delta \mu_{\text{Top1000}} \) = average change in usage (post − pre) for nerfed cards among Top 1000 players
+ ### **Hypothesis 1: Effect of nerfs on mean usage** 
+ * **Null hypothesis (\(H_{0,1}\)):**
+ * \( \mu_{\text{pre}} = \mu_{\text{post}} \) Nerfs have no effect on the mean usage rate of the affected cards. * **Alternative hypothesis (\(H_{1,1}\)):** \( \mu_{\text{pre}} > \mu_{\text{post}} \) Nerfs lead to a significant decrease in the mean usage rate of the affected cards. ### **Hypothesis 2: Effect of nerfs on variance of usage (F-test)** * **Null hypothesis (\(H_{0,2}\)):** \( \sigma^2_{\text{pre}} = \sigma^2_{\text{post}} \) Nerfs do not change the variance of card usage. * **Alternative hypothesis (\(H_{1,2}\)):** \( \sigma^2_{\text{pre}} \neq \sigma^2_{\text{post}} \) Nerfs change how concentrated or spread out card usage is. ### **Hypothesis 3: Differences between competitive brackets** * **Null hypothesis (\(H_{0,3}\)):** \( \Delta \mu_{\text{Top200}} = \Delta \mu_{\text{Top1000}} \) On average, nerfed cards change in usage by the same amount in Top 200 and Top 1000. * **Alternative hypothesis (\(H_{1,3}\)):** \( \Delta \mu_{\text{Top200}} \neq \Delta \mu_{\text{Top1000}} \) Usage changes caused by nerfs differ between Top 200 and Top 1000 players.
 
