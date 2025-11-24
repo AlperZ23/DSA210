@@ -57,22 +57,6 @@ These datasets will enable an idea analysis of how card usage responds to balanc
 
 This document defines the concrete, testable hypotheses that will be used to analyze the impact of balance nerfs on card usage in a competitive game setting. Each hypothesis maps directly to a planned statistical test.
 
----
-
-## Notation
-
-Let:
-
-mean usage rate of a nerfed card in the 14 days **before** the update  
-mean usage rate of the same card in the 14 days **after** the update  
-
-variance of usage rates before the update  
-variance of usage rates after the update 
-
- average change in usage  for nerfed cards among **Top 200** players  
- average change in usage for nerfed cards among **Top 1000** players  
-
----
 
 ## Hypothesis 1: Effect of Nerfs on Mean Usage
 
