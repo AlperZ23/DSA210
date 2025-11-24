@@ -51,7 +51,7 @@ These datasets will enable an idea analysis of how card usage responds to balanc
 * **Tier comparison:** Plot usage changes separately for Top 200 and Top 1000 to see whether effects differ by competitive level.
 
 * **Time series visualization:** For selected cards, plot usage rate over time to identify immediate versus gradual responses to nerfs.
-# Nerfed Card Usage – Statistical Hypotheses
+
 
 # Nerfed Card Usage – Statistical Hypotheses
 
