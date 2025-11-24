@@ -8,7 +8,7 @@ The primary goal is to quantify how balance changes affect card usage among high
 
 ## **Motivation**
 
-Understanding how updates influence player behavior and cards are nerfed due to high usage, top ladder players need to adapt quickly. This project is driven by the following questions:
+Understanding how updates influence player behavior is especially important for competitive Clash Royale players who need to adjust decks quickly after each balance change. As an active follower of the top ladder meta and balance updates, often see certain cards disappear from popular decks immediately after a nerf, while others remain common despite being targeted. This project comes from a desire to move beyond anecdotal impressions and quantify these changes using data.
 
 * **Impact of updates:** Do balance changes significantly change  the usage of affected cards among high‑level players?
 
