@@ -58,5 +58,6 @@ To formally evaluate the impact of nerfs, the project will apply statistical hyp
   * Use a paired t-test (or an appropriate alternative if assumptions are violated) to test whether the mean usage rate changes significantly.
 * **Variance in usage (F-test):**
    * For each nerfed card, compute the variance of its usage rate across decks/players in the pre- and post-update windows.
+   * Use an **F-test** to compare pre- and post-update variances and assess whether nerfs make usage more or less concentrated (i.e., whether players behave more uniformly after the nerf).
 ## **Hypotheses**
 
