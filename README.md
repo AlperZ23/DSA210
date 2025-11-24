@@ -64,11 +64,12 @@ This document defines the concrete, testable hypotheses that will be used to ana
 Let:
 
 mean usage rate of a nerfed card in the 14 days **before** the update  
- mean usage rate of the same card in the 14 days **after** the update  
+mean usage rate of the same card in the 14 days **after** the update  
 
- variance of usage rates before the update  
- variance of usage rates after the update  
-average change in usage  for nerfed cards among **Top 200** players  
+variance of usage rates before the update  
+variance of usage rates after the update 
+
+ average change in usage  for nerfed cards among **Top 200** players  
  average change in usage for nerfed cards among **Top 1000** players  
 
 ---
