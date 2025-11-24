@@ -51,11 +51,12 @@ These datasets will enable an idea analysis of how card usage responds to balanc
 * **Tier comparison:** Plot usage changes separately for Top 200 and Top 1000 to see whether effects differ by competitive level.
 
 * **Time series visualization:** For selected cards, plot usage rate over time to identify immediate versus gradual responses to nerfs.
-
-## **Hypothesis**
-
-* **Null Hypothesis (H₀):** Balance updates (nerfs) have no significant effect on card usage among high level players.
-
-* **Alternative Hypothesis (H₁):** Nerfs lead to a significant decrease in the usage of the affected cards among high level players.
-
+### **Hypothesis Testing**
+To formally evaluate the impact of nerfs, the project will apply statistical hypothesis tests:
+* **Mean usage change (pre vs. post):*
+  * For each nerfed card, compute its mean usage rate in the 14-day pre-update and post-update windows.
+  * Use a paired t-test (or an appropriate alternative if assumptions are violated) to test whether the mean usage rate changes significantly.
+* **Variance in usage (F-test):**
+   * For each nerfed card, compute the variance of its usage rate across decks/players in the pre- and post-update windows.
+## **Hypotheses**
 
