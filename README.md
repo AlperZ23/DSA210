@@ -51,23 +51,85 @@ These datasets will enable an idea analysis of how card usage responds to balanc
 * **Tier comparison:** Plot usage changes separately for Top 200 and Top 1000 to see whether effects differ by competitive level.
 
 * **Time series visualization:** For selected cards, plot usage rate over time to identify immediate versus gradual responses to nerfs.
-### **Hypothesis Testing**
-To formally evaluate the impact of nerfs, the project will apply statistical hypothesis tests:
-* **Mean usage change (pre vs. post):**
-  * For each nerfed card, compute its mean usage rate in the 14-day pre-update and post-update windows.
-  * Use a paired t-test (or an appropriate alternative if assumptions are violated) to test whether the mean usage rate changes significantly.
-* **Variance in usage (F-test):**
-   * For each nerfed card, compute the variance of its usage rate across decks/players in the pre- and post-update windows.
-   * Use an **F-test** to compare pre- and post-update variances and assess whether nerfs make usage more or less concentrated (i.e., whether players behave more uniformly after the nerf).
-* **Differences between brackets:**
-  * Compute the change in usage (post − pre) separately for Top 200 and Top 1000 players.
-  * Use two-sample tests (e.g., two-sample t-test) to check whether the average usage change differs significantly between competitive brackets. All tests can be conducted at a conventional significance level (e.g., α = 0.05). ##
- **Hypotheses**
- The project will use several concrete, testable hypotheses that correspond directly to the planned hypothesis tests. Let:
- * \( \mu_{\text{pre}} \) = mean usage rate of a nerfed card in the 14 days before the update * \( \mu_{\text{post}} \) = mean usage rate of the same card in the 14 days after the update
- * \( \sigma^2_{\text{pre}} \) = variance of usage rates before the update * \( \sigma^2_{\text{post}} \) = variance of usage rates after the update * \( \Delta \mu_{\text{Top200}} \) = average change in usage (post − pre) for nerfed cards among Top 200 players
- * \( \Delta \mu_{\text{Top1000}} \) = average change in usage (post − pre) for nerfed cards among Top 1000 players
- ### **Hypothesis 1: Effect of nerfs on mean usage** 
- * **Null hypothesis (\(H_{0,1}\)):**
- * \( \mu_{\text{pre}} = \mu_{\text{post}} \) Nerfs have no effect on the mean usage rate of the affected cards. * **Alternative hypothesis (\(H_{1,1}\)):** \( \mu_{\text{pre}} > \mu_{\text{post}} \) Nerfs lead to a significant decrease in the mean usage rate of the affected cards. ### **Hypothesis 2: Effect of nerfs on variance of usage (F-test)** * **Null hypothesis (\(H_{0,2}\)):** \( \sigma^2_{\text{pre}} = \sigma^2_{\text{post}} \) Nerfs do not change the variance of card usage. * **Alternative hypothesis (\(H_{1,2}\)):** \( \sigma^2_{\text{pre}} \neq \sigma^2_{\text{post}} \) Nerfs change how concentrated or spread out card usage is. ### **Hypothesis 3: Differences between competitive brackets** * **Null hypothesis (\(H_{0,3}\)):** \( \Delta \mu_{\text{Top200}} = \Delta \mu_{\text{Top1000}} \) On average, nerfed cards change in usage by the same amount in Top 200 and Top 1000. * **Alternative hypothesis (\(H_{1,3}\)):** \( \Delta \mu_{\text{Top200}} \neq \Delta \mu_{\text{Top1000}} \) Usage changes caused by nerfs differ between Top 200 and Top 1000 players.
+# Nerfed Card Usage – Statistical Hypotheses
 
+This document defines the concrete, testable hypotheses that will be used to analyze the impact of balance nerfs on card usage in a competitive game setting. Each hypothesis maps directly to a planned statistical test.
+
+---
+
+## Notation
+
+Let:
+
+- \( \mu_{\text{pre}} \) – mean usage rate of a nerfed card in the 14 days **before** the update  
+- \( \mu_{\text{post}} \) – mean usage rate of the same card in the 14 days **after** the update  
+
+- \( \sigma^2_{\text{pre}} \) – variance of usage rates before the update  
+- \( \sigma^2_{\text{post}} \) – variance of usage rates after the update  
+
+- \( \Delta \mu_{\text{Top200}} \) – average change in usage (post − pre) for nerfed cards among **Top 200** players  
+- \( \Delta \mu_{\text{Top1000}} \) – average change in usage (post − pre) for nerfed cards among **Top 1000** players  
+
+---
+
+## Hypothesis 1: Effect of Nerfs on Mean Usage
+
+**Goal:** Test whether nerfs reduce the average usage of affected cards.
+
+- **Null hypothesis** \( (H_{0,1}) \):  
+  \[
+  \mu_{\text{pre}} = \mu_{\text{post}}
+  \]  
+  Nerfs have **no effect** on the mean usage rate of the affected cards.
+
+- **Alternative hypothesis** \( (H_{1,1}) \):  
+  \[
+  \mu_{\text{pre}} > \mu_{\text{post}}
+  \]  
+  Nerfs lead to a **significant decrease** in the mean usage rate of the affected cards.
+
+---
+
+## Hypothesis 2: Effect of Nerfs on Variance of Usage (F-test)
+
+**Goal:** Test whether nerfs change how concentrated or spread out card usage is.
+
+- **Null hypothesis** \( (H_{0,2}) \):  
+  \[
+  \sigma^2_{\text{pre}} = \sigma^2_{\text{post}}
+  \]  
+  Nerfs do **not** change the variance of card usage.
+
+- **Alternative hypothesis** \( (H_{1,2}) \):  
+  \[
+  \sigma^2_{\text{pre}} \neq \sigma^2_{\text{post}}
+  \]  
+  Nerfs **do** change how concentrated or spread out card usage is.
+
+---
+
+## Hypothesis 3: Differences Between Competitive Brackets
+
+**Goal:** Test whether top players react differently to nerfs compared to a broader competitive bracket.
+
+- **Null hypothesis** \( (H_{0,3}) \):  
+  \[
+  \Delta \mu_{\text{Top200}} = \Delta \mu_{\text{Top1000}}
+  \]  
+  On average, nerfed cards change in usage by the **same amount** in Top 200 and Top 1000 brackets.
+
+- **Alternative hypothesis** \( (H_{1,3}) \):  
+  \[
+  \Delta \mu_{\text{Top200}} \neq \Delta \mu_{\text{Top1000}}
+  \]  
+  Usage changes caused by nerfs **differ** between Top 200 and Top 1000 players.
+
+---
+
+## Planned Tests (Summary)
+
+- **Hypothesis 1:** Paired test on means (e.g., paired t-test) comparing pre vs. post usage per card.  
+- **Hypothesis 2:** **F-test** on variances comparing pre vs. post usage distributions.  
+- **Hypothesis 3:** Two-sample test on \( \Delta \mu \) between Top 200 and Top 1000 (e.g., two-sample t-test or nonparametric equivalent).
+
+These hypotheses form the core of the analysis for evaluating the competitive impact of card nerfs.
