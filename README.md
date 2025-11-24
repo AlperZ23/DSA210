@@ -53,7 +53,7 @@ These datasets will enable an idea analysis of how card usage responds to balanc
 * **Time series visualization:** For selected cards, plot usage rate over time to identify immediate versus gradual responses to nerfs.
 ### **Hypothesis Testing**
 To formally evaluate the impact of nerfs, the project will apply statistical hypothesis tests:
-* **Mean usage change (pre vs. post):*
+**Mean usage change (pre vs. post):**
   * For each nerfed card, compute its mean usage rate in the 14-day pre-update and post-update windows.
   * Use a paired t-test (or an appropriate alternative if assumptions are violated) to test whether the mean usage rate changes significantly.
 * **Variance in usage (F-test):**
