@@ -1,24 +1,16 @@
-# **Introduction**
+# **Clash Royale Meta Analysis: Card Usage and Performance in High Level Play**
 
-Clash Royale is a card based strategy game where developers routinely update cards to maintain game balance. This balance changes strategies and refreshes the meta. Supercell’s own blog notes that balance updates before major tournaments consist almost entirely of nerfs. This project explores the relationship between balance updates and card usage among high level players. By analyzing changes in usage before and after updates, The project can assess whether developer’s adjustments achieve their intended effect.
+## **Introduction**
+
+Clash Royale is a card based strategy game where developers routinely update cards to maintain game balance. This project explores the relationship between card usage among high level players. By analyzing current card usage rates and win rates among top tier Clash Royale players, can infer which cards are strong or weak in practice and how top player choices differ from the broader competitive player base. This approach provides insight into the effectiveness of the game's balance as it stands now, and can still indirectly highlight the impact of past balance decisions by revealing which cards dominate or underperform in the current meta.
 
 ## **Project Goal**
 
-The primary goal is to quantify how balance changes affect card usage among high level Clash Royale players. The project mainly focuses on cards that receive nerfs in a major update and examine their usage before and after the update with correlation analysis, regression modeling and visual exploration.
+The primary goal is to analyze the current Clash Royale meta by quantifying card usage and evaluating how it relates to card success among high level players. In particular, this project aims to identify which cards are most revalent in top tier gameplay and assess whether their popularity is justified by strong performance. Also, compare the behavior of the elite players with a slightly broader set of competitive players to see if the very top players favor different cards or achieve different results with those cards. In summary, the study will use current data to answer: Which cards are popular in the current meta, how well do those cards perform, and how does this differ between the top of the ladder and the broader competitive scene?
 
 ## **Motivation**
 
-Understanding how updates influence player behavior is especially important for competitive Clash Royale players who need to adjust decks quickly after each balance change. As an active follower of the top ladder meta and balance updates, often see certain cards disappear from popular decks immediately after a nerf, while others remain common despite being targeted. This project comes from a desire to move beyond anecdotal impressions and quantify these changes using data.
-
-* **Impact of updates:** Do balance changes significantly change  the usage of affected cards among high‑level players?
-
-* **Usage of Cards:** Are some cards more likely to see usage drops after nerfs than others?
-
-* **Meta Evolution:** How do changes in usage relate to win rates and deck performance?
-
-* **Cross Segment Differences:** Do usage changes vary across different competitive brackets ?
-
-By addressing these questions, the study aims to provide data  insights into how balance updates shape the meta.
+Understanding the current meta is crucial for competitive Clash Royale players who must decide which decks to play in order to succeed.By analyzing current usage and win rates, can provide  insights. For instance, if a card is extremely common but has only average win rates, it might indicate that players use it for its utility or synergy rather than raw power. Conversely, a card with a high win rate but low usage might be a noticeable utility that could gain popularity in future metas. These insights help players understand whether following the crowd is justified or if there are opportunities to exploit less popular but effective cards. Finally, this project’s findings could guide competitive players in making informed deck building decisions and also reflect on how well the game’s balance aligns with player behavior.
 
 ## **Data Sources**
 
@@ -26,12 +18,12 @@ Because there is no official API available through the API tool, data will be co
 
 | \# | Data Type | Description | Source |  |
 | ----- | ----- | ----- | ----- | ----- |
-| 1 | **Card Usage & Win Rate** | Card usage rate and win rate. | Third‑party analytics sites such as [Stats Royale](https://statsroyale.com/) and [RoyaleAPI](https://royaleapi.com/?lang=en).  
-| 2 | **Balance Update Details** | Official notes on balance changes. | [Supercell’s official blog posts](https://supercell.com/en/news/blog/games/)  
-| 3 | **Player Deck Data** | Battle logs and deck compositions for top ladder  | [RoyaleAPI](https://royaleapi.com/?lang=en) provides battle logs.
+| 1 | **Card Usage & Win Rate** | Card usage rate and win rate. | Third‑party analytics sites such as [Stats Royale](https://statsroyale.com/) and [RoyaleAPI](https://royaleapi.com/?lang=en).  |  |
+| 2 | **Balance Update Details** | Official notes on balance changes. | [Supercell’s official blog posts](https://supercell.com/en/news/blog/games/)  |  |
+| 3 | **Player Deck Data** | Battle logs and deck compositions for top ladder  | [RoyaleAPI](https://royaleapi.com/?lang=en) provides battle logs. |  |
+| 4 |  |  |  |  |
 
-
-These datasets will enable an idea analysis of how card usage responds to balance changes.
+These datasets will enable a comprehensive analysis of the current meta. 
 
 ## **Methodology**
 
@@ -52,56 +44,23 @@ These datasets will enable an idea analysis of how card usage responds to balanc
 
 * **Time series visualization:** For selected cards, plot usage rate over time to identify immediate versus gradual responses to nerfs.
 
+## **Hypotheses and Statistical Tests**
 
-# Nerfed Card Usage – Statistical Hypotheses
+Based on the research questions and exploratory findings, we formulate the following concrete hypotheses to test statistically. Each hypothesis targets a specific aspect of the relationship between balance, usage, and performance in the current meta. We define null and alternative hypotheses for each and outline the planned statistical test to evaluate them:
 
-This document defines the concrete, testable hypotheses that will be used to analyze the impact of balance nerfs on card usage in a competitive game setting. Each hypothesis maps directly to a planned statistical test.
+1. **Hypothesis 1: Usage vs. Win Rate Alignment**  
+     
+   * **Null Hypothesis:** There is no significant correlation between a card’s usage rate and its win rate.   
+   * **Alternative Hypothesis:** There is a significant correlation between usage and win rate for cards.  
+       
+2. **Hypothesis 2: Usage Distribution Across Skill Brackets**
 
+   * **Null Hypothesis:** Top 200 and Top 1000 players use the same set of cards to the same extent.   
+   * **Alternative Hypothesis:** Top 200 and Top 1000 players have significantly different usage patterns.   
+       
+3. **Hypothesis 3: Card Performance Across Skill Brackets**  
+     
+   * **Null Hypothesis:** Card win rates are the same for Top 200 and Top 1000 players.
 
-## Hypothesis 1: Effect of Nerfs on Mean Usage
+   * **Alternative Hypothesis:** At least some cards have significantly different win rates between Top 200 and Top 1000\.
 
-**Goal:** Test whether nerfs reduce the average usage of affected cards.
-
-- **Null hypothesis** :  
-  Nerfs have **no effect** on the mean usage rate of the affected cards.
-
-- **Alternative hypothesis** :  
-  
-  Nerfs lead to a **significant decrease** in the mean usage rate of the affected cards.
-
----
-
-## Hypothesis 2: Effect of Nerfs on Variance of Usage (F-test)
-
-**Goal:** Test whether nerfs change how concentrated or spread out card usage is.
-
-- **Null hypothesis**:  
-  
-  Nerfs do **not** change the variance of card usage.
-
-- **Alternative hypothesis** :  
-
-  Nerfs **do** change how concentrated or spread out card usage is.
-
----
-
-## Hypothesis 3: Differences Between Competitive Brackets
-
-**Goal:** Test whether top players react differently to nerfs compared to a broader competitive bracket.
-
-- **Null hypothesis**:  
-  On average, nerfed cards change in usage by the **same amount** in Top 200 and Top 1000 brackets.
-
-- **Alternative hypothesis**:  
-
-  Usage changes caused by nerfs **differ** between Top 200 and Top 1000 players.
-
----
-
-## Planned Tests (Summary)
-
-- **Hypothesis 1:** Paired test on means (e.g., paired t-test) comparing pre vs. post usage per card.  
-- **Hypothesis 2:** **F-test** on variances comparing pre vs. post usage distributions.  
-- **Hypothesis 3:** Two-sample test on between Top 200 and Top 1000 (e.g., two-sample t-test or nonparametric equivalent).
-
-These hypotheses form the core of the analysis for evaluating the competitive impact of card nerfs.
