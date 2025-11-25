@@ -1,0 +1,652 @@
+CardName,Bracket,UsagePct,WinPct,Rating
+Tower Princess,Top 200,93.0,49.0,49
+Barbarian Barrel,Top 200,44.0,49.0,49
+Fireball,Top 200,31.0,49.0,48
+Skeletons,Top 200,30.0,48.0,45
+Royal Ghost,Top 200,28.0,49.0,46
+Electro Spirit,Top 200,25.0,48.0,43
+Vines,Top 200,21.0,50.0,53
+Baby Dragon,Top 200,16.0,51.0,53
+The Log,Top 200,16.0,47.0,41
+Minions,Top 200,15.0,48.0,47
+Mini P.E.K.K.A,Top 200,15.0,50.0,49
+Valkyrie,Top 200,14.0,51.0,55
+Arrows,Top 200,13.0,47.0,41
+Cannon,Top 200,13.0,48.0,42
+Lightning,Top 200,13.0,48.0,44
+Tornado,Top 200,12.0,49.0,46
+Hog Rider,Top 200,11.0,48.0,41
+Skeleton Army,Top 200,11.0,48.0,46
+Zappies,Top 200,11.0,51.0,52
+Hunter,Top 200,11.0,50.0,45
+Fisherman,Top 200,10.0,48.0,41
+Golem,Top 200,10.0,50.0,48
+Ice Spirit,Top 200,10.0,49.0,47
+Executioner,Top 200,10.0,50.0,48
+Golden Knight,Top 200,9.0,52.0,56
+Royal Hogs,Top 200,9.0,47.0,43
+Miner,Top 200,9.0,49.0,45
+Royal Giant,Top 200,9.0,48.0,41
+Ice Wizard,Top 200,9.0,48.0,44
+Balloon,Top 200,8.0,49.0,46
+Mighty Miner,Top 200,8.0,47.0,39
+Ice Golem,Top 200,8.0,50.0,46
+Lava Hound,Top 200,8.0,50.0,54
+Dart Goblin,Top 200,8.0,51.0,49
+Zap,Top 200,8.0,49.0,44
+Mega Minion,Top 200,8.0,49.0,46
+Skeleton King,Top 200,7.0,48.0,42
+Goblin Hut,Top 200,7.0,48.0,44
+Rocket,Top 200,7.0,50.0,45
+Earthquake,Top 200,6.0,46.0,36
+Giant Snowball,Top 200,6.0,49.0,44
+Berserker,Top 200,6.0,50.0,46
+Firecracker,Top 200,6.0,46.0,36
+Battle Ram,Top 200,6.0,50.0,45
+Zap,Top 200,6.0,47.0,37
+Goblin Drill,Top 200,6.0,49.0,42
+Minion Horde,Top 200,6.0,50.0,48
+Skeleton Barrel,Top 200,5.0,50.0,47
+Tombstone,Top 200,5.0,49.0,51
+Bomber,Top 200,5.0,50.0,45
+Heal Spirit,Top 200,5.0,50.0,45
+Skeletons,Top 200,5.0,49.0,42
+Wall Breakers,Top 200,5.0,48.0,40
+Guards,Top 200,5.0,47.0,38
+Fire Spirit,Top 200,5.0,51.0,49
+Electro Wizard,Top 200,5.0,47.0,38
+Giant,Top 200,5.0,48.0,40
+Poison,Top 200,5.0,47.0,39
+Goblin Cage,Top 200,5.0,52.0,50
+Mortar,Top 200,4.0,47.0,40
+P.E.K.K.A,Top 200,4.0,48.0,40
+Freeze,Top 200,4.0,47.0,39
+Elixir Collector,Top 200,4.0,49.0,41
+Bowler,Top 200,4.0,48.0,45
+Tesla,Top 200,4.0,47.0,37
+Bandit,Top 200,4.0,46.0,33
+Knight,Top 200,4.0,47.0,38
+Ram Rider,Top 200,4.0,47.0,40
+Inferno Dragon,Top 200,4.0,49.0,44
+Three Musketeers,Top 200,4.0,49.0,40
+Cannoneer,Top 200,4.0,47.0,36
+Knight,Top 200,4.0,46.0,36
+Goblin Gang,Top 200,4.0,43.0,32
+Boss Bandit,Top 200,4.0,49.0,42
+Mother Witch,Top 200,4.0,51.0,45
+Battle Healer,Top 200,4.0,52.0,47
+Dark Prince,Top 200,3.0,48.0,39
+Archers,Top 200,3.0,48.0,39
+Inferno Tower,Top 200,3.0,45.0,37
+Royal Delivery,Top 200,3.0,45.0,33
+Rage,Top 200,3.0,45.0,31
+Cannon,Top 200,3.0,49.0,43
+X-Bow,Top 200,3.0,49.0,39
+Goblin Barrel,Top 200,3.0,48.0,44
+Dagger Duchess,Top 200,3.0,47.0,35
+Mega Knight,Top 200,3.0,45.0,30
+Wall Breakers,Top 200,3.0,50.0,45
+Cannon Cart,Top 200,3.0,46.0,34
+Electro Giant,Top 200,3.0,51.0,50
+Sparky,Top 200,2.0,49.0,39
+Bomb Tower,Top 200,2.0,50.0,42
+Flying Machine,Top 200,2.0,49.0,39
+Musketeer,Top 200,2.0,48.0,38
+Monk,Top 200,2.0,48.0,34
+Graveyard,Top 200,2.0,48.0,42
+Elite Barbarians,Top 200,2.0,47.0,34
+Archer Queen,Top 200,2.0,44.0,28
+Spirit Empress,Top 200,2.0,48.0,49
+Rascals,Top 200,2.0,47.0,37
+Prince,Top 200,2.0,47.0,33
+Night Witch,Top 200,2.0,44.0,27
+Goblinstein,Top 200,2.0,47.0,34
+Elixir Golem,Top 200,2.0,50.0,39
+Skeleton Dragons,Top 200,2.0,46.0,35
+Princess,Top 200,2.0,46.0,36
+Bomber,Top 200,2.0,48.0,36
+Royal Recruits,Top 200,2.0,46.0,30
+Bats,Top 200,2.0,49.0,38
+Wizard,Top 200,2.0,42.0,21
+Goblin Curse,Top 200,2.0,49.0,38
+Electro Dragon,Top 200,2.0,51.0,39
+Barbarians,Top 200,2.0,47.0,31
+Goblins,Top 200,2.0,52.0,44
+Lumberjack,Top 200,1.0,54.0,46
+Royal Hogs,Top 200,1.0,48.0,35
+Giant Snowball,Top 200,1.0,52.0,41
+Musketeer,Top 200,1.0,52.0,42
+Witch,Top 200,1.0,46.0,29
+Bats,Top 200,1.0,50.0,38
+Inferno Dragon,Top 200,1.0,48.0,35
+Suspicious Bush,Top 200,1.0,46.0,28
+Valkyrie,Top 200,1.0,55.0,46
+Goblin Cage,Top 200,1.0,51.0,37
+Hunter,Top 200,1.0,47.0,28
+Royal Recruits,Top 200,1.0,48.0,30
+Giant Skeleton,Top 200,1.0,43.0,21
+Skeleton Army,Top 200,1.0,54.0,44
+Lumberjack,Top 200,1.0,41.0,17
+Phoenix,Top 200,1.0,50.0,33
+Magic Archer,Top 200,1.0,45.0,23
+Mortar,Top 200,1.0,50.0,35
+Royal Chef,Top 200,1.0,47.0,26
+Furnace,Top 200,1.0,47.0,25
+Goblin Machine,Top 200,1.0,45.0,19
+Baby Dragon,Top 200,1.0,44.0,18
+Dart Goblin,Top 200,1.0,39.0,23
+Royal Giant,Top 200,1.0,51.0,28
+Ice Spirit,Top 200,1.0,49.0,26
+Royal Ghost,Top 200,0.0,51.0,29
+Spear Goblins,Top 200,0.0,41.0,14
+Goblin Drill,Top 200,0.0,46.0,17
+Goblin Demolisher,Top 200,0.0,46.0,18
+Firecracker,Top 200,0.0,43.0,13
+Executioner,Top 200,0.0,53.0,27
+Battle Ram,Top 200,0.0,48.0,20
+Clone,Top 200,0.0,43.0,10
+Goblin Barrel,Top 200,0.0,47.0,13
+Void,Top 200,0.0,48.0,11
+Little Prince,Top 200,0.0,32.0,3
+Mirror,Top 200,0.0,43.0,7
+P.E.K.K.A,Top 200,0.0,32.0,3
+Wizard,Top 200,0.0,58.0,6
+Witch,Top 200,0.0,33.0,1
+Furnace,Top 200,0.0,38.0,1
+Barbarians,Top 200,0.0,71.0,6
+Archers,Top 200,0.0,43.0,1
+Goblin Giant,Top 200,0.0,14.0,0
+Mega Knight,Top 200,0.0,50.0,2
+Tesla,Top 200,0.0,33.0,0
+Skeleton Barrel,Top 200,0.0,0.0,0
+Tower Princess,Top 1000,92.0,49.0,49
+Barbarian Barrel,Top 1000,42.0,50.0,51
+Fireball,Top 1000,30.0,49.0,49
+Skeletons,Top 1000,29.0,50.0,49
+Royal Ghost,Top 1000,27.0,50.0,49
+Electro Spirit,Top 1000,24.0,50.0,49
+The Log,Top 1000,18.0,48.0,45
+Vines,Top 1000,18.0,50.0,50
+Minions,Top 1000,16.0,49.0,48
+Arrows,Top 1000,15.0,48.0,43
+Mini P.E.K.K.A,Top 1000,14.0,49.0,46
+Tornado,Top 1000,14.0,49.0,46
+Baby Dragon,Top 1000,14.0,50.0,51
+Cannon,Top 1000,13.0,49.0,47
+Lightning,Top 1000,13.0,50.0,49
+Valkyrie,Top 1000,12.0,50.0,50
+Fisherman,Top 1000,12.0,50.0,47
+Hog Rider,Top 1000,11.0,49.0,46
+Skeleton Army,Top 1000,11.0,49.0,48
+Hunter,Top 1000,11.0,50.0,49
+Ice Spirit,Top 1000,10.0,49.0,48
+Royal Giant,Top 1000,10.0,50.0,47
+Miner,Top 1000,9.0,48.0,44
+Ice Golem,Top 1000,9.0,49.0,44
+Golem,Top 1000,9.0,49.0,46
+Royal Hogs,Top 1000,9.0,50.0,49
+Balloon,Top 1000,9.0,49.0,45
+Ice Wizard,Top 1000,9.0,50.0,49
+Executioner,Top 1000,9.0,49.0,47
+Zappies,Top 1000,8.0,50.0,50
+Zap,Top 1000,8.0,48.0,44
+Skeleton King,Top 1000,7.0,49.0,46
+Mighty Miner,Top 1000,7.0,49.0,45
+Rocket,Top 1000,7.0,50.0,47
+Dart Goblin,Top 1000,7.0,50.0,48
+Giant,Top 1000,7.0,48.0,42
+Skeletons,Top 1000,7.0,49.0,45
+Goblin Hut,Top 1000,7.0,50.0,49
+Skeleton Barrel,Top 1000,6.0,49.0,45
+Elixir Collector,Top 1000,6.0,48.0,42
+Golden Knight,Top 1000,6.0,51.0,52
+Earthquake,Top 1000,6.0,49.0,45
+Mega Minion,Top 1000,6.0,49.0,47
+Giant Snowball,Top 1000,6.0,49.0,46
+Zap,Top 1000,6.0,48.0,42
+Guards,Top 1000,6.0,47.0,41
+Minion Horde,Top 1000,6.0,49.0,45
+Heal Spirit,Top 1000,6.0,49.0,45
+Knight,Top 1000,5.0,49.0,45
+Lava Hound,Top 1000,5.0,50.0,50
+Wall Breakers,Top 1000,5.0,49.0,43
+Battle Ram,Top 1000,5.0,50.0,47
+Firecracker,Top 1000,5.0,49.0,43
+Electro Wizard,Top 1000,5.0,48.0,44
+Cannoneer,Top 1000,5.0,48.0,43
+Bandit,Top 1000,5.0,48.0,41
+Mortar,Top 1000,5.0,48.0,44
+Poison,Top 1000,5.0,49.0,44
+Goblin Gang,Top 1000,5.0,46.0,39
+Berserker,Top 1000,5.0,50.0,48
+Bowler,Top 1000,5.0,49.0,45
+Fire Spirit,Top 1000,5.0,50.0,48
+Three Musketeers,Top 1000,5.0,49.0,43
+Rage,Top 1000,4.0,48.0,42
+Tesla,Top 1000,4.0,49.0,44
+Inferno Dragon,Top 1000,4.0,48.0,42
+Bomber,Top 1000,4.0,50.0,47
+Freeze,Top 1000,4.0,49.0,45
+Knight,Top 1000,4.0,49.0,45
+Tombstone,Top 1000,4.0,50.0,49
+Battle Healer,Top 1000,4.0,50.0,45
+Goblin Cage,Top 1000,4.0,51.0,49
+P.E.K.K.A,Top 1000,4.0,50.0,47
+Dark Prince,Top 1000,4.0,50.0,45
+Goblin Drill,Top 1000,4.0,50.0,46
+Sparky,Top 1000,4.0,47.0,39
+Ram Rider,Top 1000,4.0,49.0,45
+Royal Delivery,Top 1000,3.0,48.0,43
+Graveyard,Top 1000,3.0,48.0,43
+Mother Witch,Top 1000,3.0,50.0,47
+Archer Queen,Top 1000,3.0,48.0,42
+Bomb Tower,Top 1000,3.0,49.0,43
+Night Witch,Top 1000,3.0,48.0,40
+Cannon,Top 1000,3.0,49.0,45
+Monk,Top 1000,3.0,49.0,43
+X-Bow,Top 1000,3.0,49.0,44
+Archers,Top 1000,3.0,49.0,45
+Cannon Cart,Top 1000,3.0,47.0,38
+Rascals,Top 1000,3.0,48.0,42
+Dagger Duchess,Top 1000,3.0,49.0,42
+Goblin Barrel,Top 1000,3.0,49.0,46
+Goblinstein,Top 1000,3.0,49.0,42
+Musketeer,Top 1000,3.0,49.0,43
+Wall Breakers,Top 1000,3.0,49.0,45
+Boss Bandit,Top 1000,3.0,50.0,45
+Princess,Top 1000,3.0,47.0,40
+Mega Knight,Top 1000,3.0,47.0,39
+Elite Barbarians,Top 1000,2.0,48.0,39
+Elixir Golem,Top 1000,2.0,49.0,43
+Electro Giant,Top 1000,2.0,50.0,48
+Electro Dragon,Top 1000,2.0,48.0,40
+Prince,Top 1000,2.0,49.0,42
+Wizard,Top 1000,2.0,46.0,35
+Inferno Tower,Top 1000,2.0,47.0,42
+Giant Snowball,Top 1000,2.0,49.0,41
+Musketeer,Top 1000,2.0,48.0,39
+Witch,Top 1000,2.0,48.0,39
+Barbarians,Top 1000,2.0,48.0,39
+Skeleton Dragons,Top 1000,2.0,47.0,40
+Flying Machine,Top 1000,2.0,49.0,43
+Lumberjack,Top 1000,2.0,47.0,36
+Bomber,Top 1000,2.0,49.0,42
+Bats,Top 1000,2.0,46.0,33
+Royal Recruits,Top 1000,2.0,49.0,41
+Lumberjack,Top 1000,2.0,48.0,39
+Goblins,Top 1000,2.0,51.0,47
+Suspicious Bush,Top 1000,2.0,47.0,36
+Bats,Top 1000,2.0,48.0,40
+Giant Skeleton,Top 1000,2.0,47.0,35
+Hunter,Top 1000,1.0,48.0,38
+Spirit Empress,Top 1000,1.0,48.0,47
+Magic Archer,Top 1000,1.0,47.0,35
+Goblin Curse,Top 1000,1.0,49.0,40
+Royal Recruits,Top 1000,1.0,47.0,35
+Royal Hogs,Top 1000,1.0,50.0,43
+Valkyrie,Top 1000,1.0,52.0,46
+Skeleton Army,Top 1000,1.0,49.0,38
+Mortar,Top 1000,1.0,51.0,44
+Inferno Dragon,Top 1000,1.0,47.0,34
+Baby Dragon,Top 1000,1.0,48.0,34
+Furnace,Top 1000,1.0,50.0,39
+Spear Goblins,Top 1000,1.0,47.0,31
+Dart Goblin,Top 1000,1.0,44.0,34
+Phoenix,Top 1000,1.0,49.0,36
+Goblin Machine,Top 1000,1.0,48.0,33
+Little Prince,Top 1000,1.0,47.0,30
+P.E.K.K.A,Top 1000,1.0,47.0,31
+Goblin Drill,Top 1000,1.0,48.0,32
+Mirror,Top 1000,1.0,44.0,25
+Goblin Cage,Top 1000,1.0,51.0,42
+Ice Spirit,Top 1000,0.0,47.0,29
+Royal Chef,Top 1000,0.0,50.0,36
+Royal Giant,Top 1000,0.0,49.0,32
+Goblin Demolisher,Top 1000,0.0,49.0,32
+Battle Ram,Top 1000,0.0,48.0,32
+Royal Ghost,Top 1000,0.0,47.0,28
+Firecracker,Top 1000,0.0,45.0,24
+Void,Top 1000,0.0,49.0,31
+Goblin Barrel,Top 1000,0.0,45.0,23
+Clone,Top 1000,0.0,46.0,24
+Witch,Top 1000,0.0,52.0,30
+Goblin Giant,Top 1000,0.0,44.0,17
+Mega Knight,Top 1000,0.0,42.0,13
+Executioner,Top 1000,0.0,54.0,31
+Wizard,Top 1000,0.0,53.0,18
+Archers,Top 1000,0.0,43.0,6
+Furnace,Top 1000,0.0,52.0,9
+Barbarian Hut,Top 1000,0.0,36.0,3
+Barbarians,Top 1000,0.0,56.0,8
+Tesla,Top 1000,0.0,36.0,2
+Electro Dragon,Top 1000,0.0,80.0,10
+Skeleton Barrel,Top 1000,0.0,20.0,0
+Rune Giant,Top 1000,0.0,0.0,0
+Tower Princess,All Ranked,88.0,50.0,50
+The Log,All Ranked,28.0,49.0,46
+Barbarian Barrel,All Ranked,28.0,52.0,56
+Arrows,All Ranked,27.0,50.0,51
+Fireball,All Ranked,23.0,50.0,51
+Skeletons,All Ranked,21.0,49.0,47
+Hog Rider,All Ranked,17.0,49.0,46
+Ice Spirit,All Ranked,15.0,48.0,45
+Valkyrie,All Ranked,15.0,49.0,48
+Royal Ghost,All Ranked,15.0,52.0,55
+Goblin Gang,All Ranked,14.0,50.0,50
+Mini P.E.K.K.A,All Ranked,13.0,50.0,50
+Electro Spirit,All Ranked,13.0,50.0,51
+Mega Knight,All Ranked,13.0,49.0,47
+Vines,All Ranked,12.0,51.0,52
+Firecracker,All Ranked,11.0,48.0,44
+Zap,All Ranked,11.0,50.0,50
+Tornado,All Ranked,11.0,50.0,51
+Lightning,All Ranked,10.0,51.0,52
+Dart Goblin,All Ranked,10.0,49.0,48
+Electro Wizard,All Ranked,9.0,51.0,51
+Minions,All Ranked,9.0,51.0,52
+Balloon,All Ranked,9.0,51.0,54
+Cannon,All Ranked,8.0,49.0,46
+Witch,All Ranked,8.0,49.0,47
+Knight,All Ranked,8.0,49.0,47
+Miner,All Ranked,7.0,48.0,46
+Poison,All Ranked,7.0,50.0,49
+Skeleton Barrel,All Ranked,7.0,51.0,53
+Cannon,All Ranked,7.0,48.0,45
+Baby Dragon,All Ranked,7.0,52.0,55
+Earthquake,All Ranked,7.0,49.0,47
+Dagger Duchess,All Ranked,7.0,49.0,46
+Guards,All Ranked,6.0,50.0,50
+Bandit,All Ranked,6.0,52.0,55
+Ice Wizard,All Ranked,6.0,51.0,52
+Royal Hogs,All Ranked,6.0,51.0,52
+Zappies,All Ranked,6.0,53.0,58
+Bats,All Ranked,6.0,49.0,47
+Ice Golem,All Ranked,6.0,50.0,50
+Tesla,All Ranked,6.0,47.0,42
+Fisherman,All Ranked,6.0,51.0,53
+Rocket,All Ranked,6.0,46.0,40
+Lumberjack,All Ranked,6.0,52.0,54
+Golem,All Ranked,5.0,52.0,54
+Royal Recruits,All Ranked,5.0,53.0,57
+Princess,All Ranked,5.0,49.0,46
+Knight,All Ranked,5.0,50.0,49
+Skeleton Army,All Ranked,5.0,49.0,47
+Electro Dragon,All Ranked,5.0,50.0,49
+Prince,All Ranked,5.0,50.0,50
+Executioner,All Ranked,5.0,50.0,50
+Goblin Barrel,All Ranked,5.0,50.0,48
+Skeletons,All Ranked,5.0,49.0,46
+Mighty Miner,All Ranked,5.0,48.0,45
+Royal Giant,All Ranked,5.0,51.0,52
+Golden Knight,All Ranked,5.0,51.0,52
+Berserker,All Ranked,5.0,49.0,47
+Hunter,All Ranked,4.0,51.0,53
+Goblin Hut,All Ranked,4.0,50.0,50
+Goblin Barrel,All Ranked,4.0,47.0,41
+Mother Witch,All Ranked,4.0,50.0,50
+Wall Breakers,All Ranked,4.0,50.0,49
+Flying Machine,All Ranked,4.0,53.0,57
+Wall Breakers,All Ranked,4.0,50.0,49
+Inferno Tower,All Ranked,4.0,48.0,44
+Royal Delivery,All Ranked,4.0,48.0,43
+Battle Ram,All Ranked,4.0,52.0,56
+Mortar,All Ranked,4.0,52.0,54
+Rage,All Ranked,4.0,50.0,49
+P.E.K.K.A,All Ranked,4.0,50.0,51
+Archer Queen,All Ranked,4.0,50.0,50
+Dark Prince,All Ranked,4.0,50.0,51
+Bowler,All Ranked,4.0,52.0,55
+Musketeer,All Ranked,4.0,49.0,47
+Elixir Collector,All Ranked,4.0,52.0,54
+Zap,All Ranked,4.0,52.0,55
+Goblin Cage,All Ranked,4.0,54.0,59
+Royal Hogs,All Ranked,4.0,51.0,51
+Tesla,All Ranked,4.0,47.0,43
+Valkyrie,All Ranked,4.0,47.0,42
+Inferno Dragon,All Ranked,4.0,51.0,53
+Graveyard,All Ranked,4.0,52.0,54
+Skeleton Army,All Ranked,4.0,51.0,52
+Musketeer,All Ranked,4.0,50.0,50
+P.E.K.K.A,All Ranked,4.0,50.0,49
+Firecracker,All Ranked,4.0,47.0,41
+Cannoneer,All Ranked,4.0,50.0,51
+Skeleton King,All Ranked,4.0,51.0,52
+Bomb Tower,All Ranked,4.0,51.0,53
+Boss Bandit,All Ranked,3.0,49.0,46
+Cannon Cart,All Ranked,3.0,53.0,57
+Dart Goblin,All Ranked,3.0,48.0,44
+Mega Minion,All Ranked,3.0,51.0,53
+Inferno Dragon,All Ranked,3.0,50.0,49
+Giant Snowball,All Ranked,3.0,49.0,46
+Sparky,All Ranked,3.0,51.0,52
+Giant,All Ranked,3.0,51.0,53
+Tombstone,All Ranked,3.0,51.0,52
+Freeze,All Ranked,3.0,51.0,52
+Wizard,All Ranked,3.0,49.0,46
+Rascals,All Ranked,3.0,53.0,56
+Skeleton Barrel,All Ranked,3.0,48.0,45
+Archers,All Ranked,3.0,50.0,49
+Lumberjack,All Ranked,3.0,50.0,51
+Fire Spirit,All Ranked,3.0,48.0,45
+Lava Hound,All Ranked,3.0,52.0,56
+Magic Archer,All Ranked,3.0,50.0,48
+Ram Rider,All Ranked,3.0,49.0,48
+Giant Skeleton,All Ranked,3.0,50.0,50
+Three Musketeers,All Ranked,3.0,52.0,53
+Furnace,All Ranked,3.0,51.0,52
+Royal Ghost,All Ranked,3.0,51.0,51
+Night Witch,All Ranked,3.0,51.0,51
+Battle Healer,All Ranked,3.0,51.0,52
+X-Bow,All Ranked,2.0,49.0,47
+Giant Snowball,All Ranked,2.0,50.0,50
+Elixir Golem,All Ranked,2.0,48.0,45
+Elite Barbarians,All Ranked,2.0,49.0,47
+Bats,All Ranked,2.0,51.0,52
+Minion Horde,All Ranked,2.0,50.0,49
+Heal Spirit,All Ranked,2.0,52.0,54
+Baby Dragon,All Ranked,2.0,50.0,49
+Mega Knight,All Ranked,2.0,48.0,45
+Bomber,All Ranked,2.0,48.0,45
+Monk,All Ranked,2.0,50.0,48
+Royal Chef,All Ranked,2.0,49.0,46
+Royal Recruits,All Ranked,2.0,50.0,48
+Electro Giant,All Ranked,2.0,50.0,50
+Spear Goblins,All Ranked,2.0,50.0,49
+Witch,All Ranked,2.0,46.0,40
+Goblins,All Ranked,2.0,50.0,49
+Goblin Drill,All Ranked,2.0,47.0,41
+Suspicious Bush,All Ranked,2.0,50.0,49
+Goblin Cage,All Ranked,2.0,52.0,54
+Furnace,All Ranked,2.0,49.0,47
+Mirror,All Ranked,2.0,45.0,36
+Skeleton Dragons,All Ranked,2.0,52.0,55
+Wizard,All Ranked,2.0,46.0,40
+Hunter,All Ranked,1.0,51.0,51
+Goblinstein,All Ranked,1.0,52.0,53
+Spirit Empress,All Ranked,1.0,51.0,53
+Barbarians,All Ranked,1.0,52.0,53
+Ice Spirit,All Ranked,1.0,47.0,42
+Battle Ram,All Ranked,1.0,51.0,52
+Goblin Giant,All Ranked,1.0,51.0,52
+Goblin Curse,All Ranked,1.0,49.0,47
+Bomber,All Ranked,1.0,49.0,47
+Clone,All Ranked,1.0,48.0,45
+Little Prince,All Ranked,1.0,48.0,44
+Executioner,All Ranked,1.0,46.0,39
+Archers,All Ranked,1.0,47.0,42
+Royal Giant,All Ranked,1.0,49.0,46
+Phoenix,All Ranked,1.0,50.0,50
+Goblin Demolisher,All Ranked,1.0,50.0,49
+Barbarians,All Ranked,0.0,49.0,47
+Goblin Drill,All Ranked,0.0,49.0,46
+Goblin Machine,All Ranked,0.0,48.0,44
+Void,All Ranked,0.0,49.0,45
+Mortar,All Ranked,0.0,47.0,42
+Electro Dragon,All Ranked,0.0,42.0,30
+Goblin Giant,All Ranked,0.0,47.0,41
+Rune Giant,All Ranked,0.0,43.0,31
+Barbarian Hut,All Ranked,0.0,48.0,43
+Tower Princess,Ladder,92.0,52.0,54
+The Log,Ladder,38.0,53.0,62
+Arrows,Ladder,28.0,51.0,54
+Mini P.E.K.K.A,Ladder,25.0,53.0,60
+Hog Rider,Ladder,23.0,53.0,59
+Fireball,Ladder,20.0,52.0,56
+Witch,Ladder,20.0,53.0,58
+Goblin Barrel,Ladder,20.0,53.0,58
+Skeleton Army,Ladder,19.0,53.0,58
+Mega Knight,Ladder,16.0,52.0,57
+Ice Spirit,Ladder,15.0,52.0,57
+Knight,Ladder,15.0,53.0,59
+Goblin Gang,Ladder,14.0,53.0,58
+Skeletons,Ladder,14.0,52.0,57
+Firecracker,Ladder,14.0,52.0,56
+Valkyrie,Ladder,14.0,51.0,54
+Zap,Ladder,13.0,51.0,53
+Mega Knight,Ladder,13.0,55.0,63
+Dart Goblin,Ladder,12.0,53.0,58
+Valkyrie,Ladder,12.0,53.0,57
+Electro Wizard,Ladder,11.0,53.0,57
+Cannon,Ladder,11.0,53.0,58
+Witch,Ladder,11.0,53.0,58
+Firecracker,Ladder,11.0,52.0,56
+Bats,Ladder,10.0,52.0,54
+Tesla,Ladder,10.0,51.0,53
+Tesla,Ladder,9.0,52.0,55
+Princess,Ladder,9.0,52.0,56
+Prince,Ladder,8.0,51.0,52
+Wizard,Ladder,8.0,49.0,47
+Barbarian Barrel,Ladder,8.0,51.0,52
+Baby Dragon,Ladder,7.0,51.0,53
+Royal Hogs,Ladder,7.0,52.0,54
+Minions,Ladder,6.0,52.0,55
+Guards,Ladder,6.0,50.0,51
+Inferno Tower,Ladder,6.0,52.0,54
+Golden Knight,Ladder,6.0,52.0,56
+Wizard,Ladder,6.0,52.0,55
+Balloon,Ladder,6.0,50.0,50
+Rage,Ladder,6.0,48.0,45
+Knight,Ladder,6.0,52.0,56
+Inferno Dragon,Ladder,6.0,50.0,51
+Archers,Ladder,6.0,52.0,56
+Royal Ghost,Ladder,6.0,52.0,56
+P.E.K.K.A,Ladder,5.0,51.0,52
+Vines,Ladder,5.0,52.0,55
+Electro Spirit,Ladder,5.0,51.0,54
+Elite Barbarians,Ladder,5.0,50.0,50
+Dart Goblin,Ladder,5.0,52.0,54
+Electro Dragon,Ladder,5.0,50.0,50
+Boss Bandit,Ladder,5.0,51.0,52
+Bandit,Ladder,5.0,51.0,52
+Wall Breakers,Ladder,5.0,51.0,53
+Musketeer,Ladder,5.0,53.0,58
+P.E.K.K.A,Ladder,5.0,51.0,51
+Ice Wizard,Ladder,4.0,50.0,50
+Dagger Duchess,Ladder,4.0,50.0,50
+Miner,Ladder,4.0,47.0,42
+Rocket,Ladder,4.0,49.0,48
+Dark Prince,Ladder,4.0,52.0,55
+Tornado,Ladder,4.0,46.0,38
+Inferno Dragon,Ladder,4.0,51.0,52
+Royal Delivery,Ladder,4.0,51.0,52
+Skeletons,Ladder,4.0,52.0,54
+Skeleton Army,Ladder,4.0,53.0,58
+Mother Witch,Ladder,4.0,51.0,51
+Royal Hogs,Ladder,4.0,54.0,61
+Skeleton King,Ladder,4.0,51.0,53
+Lumberjack,Ladder,4.0,50.0,49
+Magic Archer,Ladder,4.0,50.0,49
+Poison,Ladder,3.0,49.0,46
+Lumberjack,Ladder,3.0,51.0,53
+Executioner,Ladder,3.0,51.0,53
+Goblin Barrel,Ladder,3.0,53.0,56
+Ram Rider,Ladder,3.0,50.0,50
+Freeze,Ladder,3.0,49.0,47
+Skeleton Barrel,Ladder,3.0,52.0,55
+Cannon,Ladder,3.0,52.0,55
+Lightning,Ladder,3.0,45.0,37
+Sparky,Ladder,3.0,52.0,54
+Minion Horde,Ladder,3.0,49.0,47
+Giant Snowball,Ladder,3.0,51.0,51
+Skeleton Barrel,Ladder,3.0,53.0,57
+Mighty Miner,Ladder,3.0,52.0,54
+Elixir Golem,Ladder,3.0,45.0,37
+Barbarians,Ladder,3.0,49.0,47
+Bomber,Ladder,3.0,52.0,54
+Ice Golem,Ladder,3.0,52.0,55
+Mirror,Ladder,3.0,47.0,43
+Earthquake,Ladder,3.0,52.0,55
+Tombstone,Ladder,3.0,51.0,53
+Archers,Ladder,3.0,52.0,55
+Royal Ghost,Ladder,3.0,55.0,62
+Giant Skeleton,Ladder,3.0,51.0,53
+Royal Chef,Ladder,2.0,50.0,49
+Spear Goblins,Ladder,2.0,50.0,49
+Executioner,Ladder,2.0,52.0,54
+Royal Giant,Ladder,2.0,50.0,49
+Golem,Ladder,2.0,48.0,45
+Royal Recruits,Ladder,2.0,53.0,57
+Baby Dragon,Ladder,2.0,53.0,56
+Giant,Ladder,2.0,44.0,35
+Bomber,Ladder,2.0,44.0,34
+Archer Queen,Ladder,2.0,50.0,49
+Barbarians,Ladder,2.0,51.0,52
+Goblin Curse,Ladder,2.0,45.0,38
+Battle Ram,Ladder,2.0,50.0,51
+Berserker,Ladder,2.0,49.0,48
+Goblin Hut,Ladder,2.0,49.0,46
+Bowler,Ladder,2.0,50.0,49
+Fire Spirit,Ladder,2.0,50.0,49
+Bomb Tower,Ladder,2.0,51.0,53
+X-Bow,Ladder,2.0,50.0,50
+Mega Minion,Ladder,2.0,44.0,34
+Cannoneer,Ladder,2.0,49.0,48
+Royal Recruits,Ladder,2.0,54.0,60
+Battle Ram,Ladder,2.0,51.0,53
+Graveyard,Ladder,2.0,46.0,40
+Fisherman,Ladder,2.0,49.0,46
+Little Prince,Ladder,2.0,52.0,54
+Wall Breakers,Ladder,2.0,51.0,52
+Furnace,Ladder,2.0,51.0,53
+Clone,Ladder,2.0,47.0,43
+Giant Snowball,Ladder,1.0,45.0,37
+Zap,Ladder,1.0,49.0,46
+Goblin Cage,Ladder,1.0,52.0,55
+Musketeer,Ladder,1.0,52.0,55
+Electro Dragon,Ladder,1.0,49.0,47
+Electro Giant,Ladder,1.0,45.0,38
+Zappies,Ladder,1.0,53.0,58
+Skeleton Dragons,Ladder,1.0,46.0,39
+Flying Machine,Ladder,1.0,52.0,53
+Bats,Ladder,1.0,50.0,49
+Mortar,Ladder,1.0,52.0,53
+Hunter,Ladder,1.0,53.0,58
+Night Witch,Ladder,1.0,47.0,41
+Goblins,Ladder,1.0,52.0,55
+Battle Healer,Ladder,1.0,43.0,34
+Royal Giant,Ladder,1.0,50.0,49
+Elixir Collector,Ladder,1.0,45.0,38
+Furnace,Ladder,1.0,53.0,57
+Goblin Cage,Ladder,1.0,50.0,49
+Monk,Ladder,1.0,47.0,42
+Suspicious Bush,Ladder,1.0,50.0,51
+Goblinstein,Ladder,1.0,50.0,50
+Rascals,Ladder,1.0,53.0,57
+Hunter,Ladder,1.0,48.0,43
+Cannon Cart,Ladder,1.0,52.0,55
+Lava Hound,Ladder,1.0,42.0,30
+Ice Spirit,Ladder,1.0,52.0,54
+Goblin Machine,Ladder,1.0,36.0,19
+Heal Spirit,Ladder,1.0,46.0,39
+Goblin Giant,Ladder,1.0,46.0,40
+Goblin Drill,Ladder,1.0,45.0,38
+Three Musketeers,Ladder,1.0,50.0,50
+Spirit Empress,Ladder,1.0,48.0,44
+Phoenix,Ladder,0.0,42.0,30
+Goblin Giant,Ladder,0.0,39.0,24
+Mortar,Ladder,0.0,50.0,49
+Goblin Demolisher,Ladder,0.0,44.0,34
+Void,Ladder,0.0,47.0,42
+Goblin Drill,Ladder,0.0,46.0,39
+Rune Giant,Ladder,0.0,42.0,29
+Barbarian Hut,Ladder,0.0,47.0,42
