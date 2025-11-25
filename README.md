@@ -25,24 +25,33 @@ Because there is no official API available through the API tool, data will be co
 
 These datasets will enable a comprehensive analysis of the current meta. 
 
-## **Methodology**
+**Methodology (Headings in One Sentence Each)**
 
-### **Data Cleaning & Preprocessing**
+**Data Collection & Preprocessing** – This stage is about deciding what data to gather, from where, over what time window, and how to clean and structure it before analysis.
 
-* **Define analysis:** For each update, select a pre update window (14 days before) and a post update window (14 days after).  
-  **Normalize card names:** Ensure that cards are consistently identified to avoid miscounting usage as top ladder players often play both variants.  
-* **Compute usage rate:** For each card and time window, calculate the proportion of decks in the sample that include the card.  
-*  **Handle missing data:** Some cards may have insufficient sample size. Using minimum sample thresholds.
+* **Define Data Scope** – Choose a recent time window and specific competitive brackets (Top 1000 and Top 200\) so the data represents the current meta and allows comparison across skill levels.
 
-  ### **Exploratory Data Analysis (EDA)**
+* **Collect Usage and Win Rate Stats** – Pull each card’s usage rate and win rate for both brackets from third-party analytics sites and record them with consistent card naming.
 
-* **Descriptive statistics:** Summarize average usage rates, win rates for each card. Visualize the distribution of usage changes across all nerfed cards.
+* **Manual Data Verification** – A sample of the collected stats to ensure the manually entered values are accurate and reliable.
 
-* **Correlation analysis:** Examine the relationship between usage changes and the magnitude of the nerf.
+* **Handle Missing or Rare Data** – Set a minimum usage or games played threshold and exclude cards below it from statistical tests to avoid unstable results from tiny samples.
 
-* **Tier comparison:** Plot usage changes separately for Top 200 and Top 1000 to see whether effects differ by competitive level.
+* **Data Organization** – Store all cleaned values in a structured table  with columns for card name and stats per bracket to enable easy calculations and comparisons.
 
-* **Time series visualization:** For selected cards, plot usage rate over time to identify immediate versus gradual responses to nerfs.
+  ---
+
+**Exploratory Data Analysis (EDA)** – This step uses summaries and visualizations to understand patterns in the current meta before running formal statistical tests.
+
+* **Descriptive Statistics** – Compute and report simple summaries of usage and win rates to get a baseline picture of the meta.
+
+* **Meta Concentration Analysis** – Measure how much of total usage is captured by the most popular cards to see whether the meta is dominated by a few options or spread across many.
+
+* **Usage vs. Win Rate Relationship** – Plot and correlate usage rates with win rates for all cards to see whether more popular cards also tend to perform better.
+
+* **Cross Bracket Usage Comparison** – Compare card usage between Top 200 and Top 1000 to determine whether elite players favor a different set of cards.
+
+* **Cross Bracket Performance Comparison** – Compare card win rates between Top 200 and Top 1000 to see if top players achieve systematically better or worse results with specific cards.
 
 ## **Hypotheses and Statistical Tests**
 
