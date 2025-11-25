@@ -64,12 +64,12 @@ Based on the research questions and exploratory findings, we formulate the follo
        
 2. **Hypothesis 2: Usage Distribution Across Skill Brackets**
 
-   * **Null Hypothesis:** Top 200 and Top 1000 players use the same set of cards to the same extent.   
-   * **Alternative Hypothesis:** Top 200 and Top 1000 players have significantly different usage patterns.   
+   * **Null Hypothesis:** Top 200, Top 1000 and all ranked players use the same set of cards to the same extent.   
+   * **Alternative Hypothesis:** Top 200, Top 1000 and all ranked players have significantly different usage patterns.   
        
 3. **Hypothesis 3: Card Performance Across Skill Brackets**  
      
-   * **Null Hypothesis:** Card win rates are the same for Top 200 and Top 1000 players.
+   * **Null Hypothesis:** Card win rates are the same for Top 200, Top 1000 and all ranked players.
 
-   * **Alternative Hypothesis:** At least some cards have significantly different win rates between Top 200 and Top 1000\.
+   * **Alternative Hypothesis:** At least some cards have significantly different win rates between Top 200, Top 1000 and all ranked players \.
 
