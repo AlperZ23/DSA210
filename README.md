@@ -21,7 +21,7 @@ Because there is no official API available through the API tool, data will be co
 | 1 | **Card Usage & Win Rate** | Card usage rate and win rate. | Third‑party analytics sites such as [Stats Royale](https://statsroyale.com/) and [RoyaleAPI](https://royaleapi.com/?lang=en).  |  |
 | 2 | **Balance Update Details** | Official notes on balance changes. | [Supercell’s official blog posts](https://supercell.com/en/news/blog/games/)  |  |
 | 3 | **Player Deck Data** | Battle logs and deck compositions for top ladder  | [RoyaleAPI](https://royaleapi.com/?lang=en) provides battle logs. |  |
-| 4 |  |  |  |  |
+
 
 These datasets will enable a comprehensive analysis of the current meta. 
 
