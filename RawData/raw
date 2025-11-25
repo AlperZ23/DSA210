@@ -1,1 +1,61 @@
-asd
+import requests
+from bs4 import BeautifulSoup
+import pandas as pd
+
+base_url = "https://royaleapi.com/cards/popular?lang=en&time=7d&mode=table"
+urls = {
+    "Top 200":   base_url + "&cat=TopRanked200&sort=usage",
+    "Top 1000":  base_url + "&cat=TopRanked1000&sort=usage",
+    "All Ranked": base_url + "&cat=Ranked&sort=usage",
+    "Ladder": base_url +  "&cat=Ladder&sort=usage"
+}
+
+headers = {
+    "User-Agent": "Mozilla/5.0 (compatible; card-scraper/1.0; +https://example.com)"
+}
+
+all_records = []
+
+for bracket, url in urls.items():
+    resp = requests.get(url, headers=headers, timeout=15)
+    resp.raise_for_status()
+
+    soup = BeautifulSoup(resp.text, "html.parser")
+    table = soup.find("table")
+
+    rows = table.find_all("tr")
+   
+
+    for row in rows[1:]:
+        cells = [c.get_text(strip=True) for c in row.find_all(["td", "th"])]
+
+  
+        if len(cells) < 7:
+            continue
+
+        card_name = cells[1]
+        rating = cells[2]
+        usage_raw = cells[3].replace("%", "")
+        win_raw = cells[5].replace("%", "")
+
+        def to_float_safe(s):
+            try:
+                return float(s)
+            except ValueError:
+                return None
+
+        usage_pct = to_float_safe(usage_raw)
+        win_pct = to_float_safe(win_raw)
+
+        all_records.append({
+            "CardName": card_name,
+            "Bracket": bracket,
+            "UsagePct": usage_pct,
+            "WinPct": win_pct,
+            "Rating": rating,
+        })
+
+df = pd.DataFrame(all_records)
+df.to_csv("card_stats_royalapi.csv", index=False)
+
+
