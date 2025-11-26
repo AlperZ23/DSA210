@@ -55,20 +55,16 @@ These datasets will enable a comprehensive analysis of the current meta.
 ## **Hypotheses and Statistical Tests**
 
 Based on the research questions and exploratory findings, we formulate the following concrete hypotheses to test statistically. Each hypothesis targets a specific aspect of the relationship between balance, usage, and performance in the current meta. We define null and alternative hypotheses for each and outline the planned statistical test to evaluate them:
-
-1. **Hypothesis 1: Usage vs. Win Rate Alignment**  
-     
-   * **Null Hypothesis:** There is no significant correlation between a card’s usage rate and its win rate.   
-   * **Alternative Hypothesis:** There is a significant correlation between usage and win rate for cards.  
        
-2. **Hypothesis 2: Usage Distribution Across Skill Brackets**
+2. **Hypothesis 1: Usage Distribution Across Skill Brackets**
 
-   * **Null Hypothesis:** Top 200, Top 1000 and all ranked players use the same set of cards to the same extent.   
-   * **Alternative Hypothesis:** Top 200, Top 1000 and all ranked players have significantly different usage patterns.   
-       
-3. **Hypothesis 3: Card Performance Across Skill Brackets**  
+   * **Null Hypothesis:** Top 200, Top 1000, ladder and ranked players use the same set of cards to the same extent.
      
-   * **Null Hypothesis:** Card win rates are the same for Top 200, Top 1000 and all ranked players.
+   * **Alternative Hypothesis:** Top 200, Top 1000, ladder and ranked players have significantly different usage patterns.   
+       
+3. **Hypothesis 2: Card Performance Across Skill Brackets**  
+     
+   * **Null Hypothesis:** Card win rates are the same for Top 200, Top 1000, ladder and ranked players.
 
-   * **Alternative Hypothesis:** At least some cards have significantly different win rates between Top 200, Top 1000 and all ranked players \.
+   * **Alternative Hypothesis:** At least some cards have significantly different win rates between Top 200, Top 1000, ladder and ranked players \.
 
