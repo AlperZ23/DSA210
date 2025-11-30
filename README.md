@@ -71,3 +71,39 @@ Based on the research questions and exploratory findings, we formulate the follo
      
      **Alternative Hypothesis:** At least some cards have significantly different win rates between Top 200, Top 1000, ladder and ranked players.
      
+**Findings**
+
+* **Hypothesis 1 (Usage across brackets):**
+
+  * Contingency table: 4×122 (brackets × cards, using UsagePct).
+
+  * Chi-square test: χ² \= 425.04, df \= 363, p \= 0.0136.
+
+  * Conclusion: Reject H0 at 5% level. Card usage distributions differ across brackets. Top 200 / Top 1000 players do not use exactly the same mix of cards as Ladder or All Ranked players.
+
+* **Hypothesis 2 (Win rates across brackets):**
+
+  * For each of 113 cards, a 2×4 win/loss × bracket table was built from UsagePct and WinPct.
+
+  * Smallest raw p-value: Skeleton Barrel, p ≈ 0.0396.
+
+  * Bonferroni-adjusted threshold: α\_Bonf ≈ 0.000442.
+
+  * No card passes this threshold.
+
+  * Conclusion: After correcting for multiple comparisons, no card’s win rate pattern is significantly different across brackets under the approximated-counts model.
+
+### **Limitations**
+
+* Only aggregated percentages (UsagePct, WinPct) were available, not raw battle counts.
+
+* Counts were reconstructed using an arbitrary baseline (1000 uses per bracket per card). This is standard when only percentages exist, but actual p-values would differ if true sample sizes were known.
+
+* For Hypothesis 1, the chi-square test was applied to usage percentages treated as counts. This captures structure in the table (and clearly shows different usage patterns), but the exact p-value should be interpreted as approximate rather than exact.
+
+Within these constraints, the main qualitative conclusions are:
+
+1. Usage patterns clearly differ by bracket (H0 rejected).
+
+2. Win rate differences by bracket are not statistically strong after correction (H0 accepted).
+
