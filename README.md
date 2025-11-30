@@ -26,31 +26,31 @@ These datasets will enable a comprehensive analysis of the current meta.
 
 **Methodology**
 
-**Data Collection & Preprocessing:**  This stage is about deciding what data to gather, from where, over what time window, and how to clean and structure it before analysis.
-
-**Define Data Scope:** Choose a recent time window (7 days) and specific competitive brackets (top 200, top 1000, ranked and ladder\\) so the data represents the current meta and allows comparison across skill levels.
-
-**Collect Usage and Win Rate Stats:** Pull each card’s usage rate and win rate for both brackets from third-party analytics sites and record them with consistent card naming.
-
-**Manual Data Verification:** A sample of the collected stats to ensure the manually entered values are accurate and reliable.
-
-**Handle Missing or Rare Data:** Set a minimum usage or games played threshold and exclude cards below it from statistical tests to avoid unstable results from tiny samples.
-
-**Data Organization:** Store all cleaned values in a structured table  with columns for card name and stats per bracket to enable easy calculations and comparisons.
+1. **Data Collection & Preprocessing:**  This stage is about deciding what data to gather, from where, over what time window, and how to clean and structure it before analysis.  
+     
+2. **Define Data Scope:** Choose a recent time window (7 days) and specific competitive brackets (top 200, top 1000, ranked and ladder\\) so the data represents the current meta and allows comparison across skill levels.  
+     
+3. **Collect Usage and Win Rate Stats:** Pull each card’s usage rate and win rate for both brackets from third-party analytics sites and record them with consistent card naming.  
+     
+4. **Manual Data Verification:** A sample of the collected stats to ensure the manually entered values are accurate and reliable.  
+     
+5. **Handle Missing or Rare Data:** Set a minimum usage or games played threshold and exclude cards below it from statistical tests to avoid unstable results from tiny samples.  
+     
+6. **Data Organization:** Store all cleaned values in a structured table  with columns for card name and stats per bracket to enable easy calculations and comparisons.
 
 **Exploratory Data Analysis (EDA)**
 
 This step uses summaries and visualizations to understand patterns in the current meta before running formal statistical tests.
 
-**Descriptive Statistics**: Compute and report simple summaries of usage and win rates to get a baseline picture of the meta.
-
-**Meta Concentration Analysis:** Measure how much of total usage is captured by the most popular cards to see whether the meta is dominated by a few options or spread across many.
-
-**\\Usage vs. Win Rate Relationship:** Plot and correlate usage rates with win rates for all cards to see whether more popular cards also tend to perform better.
-
-**Cross Bracket Usage Comparison:** Compare card usage between top 200, top 1000, ranked and ladder to determine whether elite players favor a different set of cards.
-
-**Cross Bracket Performance Comparison:** Compare card win rates between top 200, top 1000, ranked and ladder to see if top players achieve systematically better or worse results with specific cards.
+1. **Descriptive Statistics**: Compute and report simple summaries of usage and win rates to get a baseline picture of the meta.  
+     
+2. **Meta Concentration Analysis:** Measure how much of total usage is captured by the most popular cards to see whether the meta is dominated by a few options or spread across many.  
+     
+3. **Usage vs. Win Rate Relationship:** Plot and correlate usage rates with win rates for all cards to see whether more popular cards also tend to perform better.  
+     
+4. **Cross Bracket Usage Comparison:** Compare card usage between top 200, top 1000, ranked and ladder to determine whether elite players favor a different set of cards.  
+     
+5. **Cross Bracket Performance Comparison:** Compare card win rates between top 200, top 1000, ranked and ladder to see if top players achieve systematically better or worse results with specific cards.
 
 **Hypotheses and Statistical Tests**
 
@@ -58,19 +58,15 @@ Based on the research questions and exploratory findings, we formulate the follo
 
        
 
-**1\) Hypothesis 1:** Usage Distribution Across Skill Brackets
+ **Hypothesis 1:** Usage Distribution Across Skill Brackets
 
 **Null Hypothesis:** Top 200, Top 1000, ladder and ranked players use the same set of cards to the same extent.
-
-     
 
 **Alternative Hypothesis:** Top 200, Top 1000, ladder and ranked players have significantly different usage patterns.   
 
        
 
 **Hypothesis 2:** Card Performance Across Skill Brackets
-
-     
 
 **Null Hypothesis:** Card win rates are the same for Top 200, Top 1000, ladder and ranked players.
 
