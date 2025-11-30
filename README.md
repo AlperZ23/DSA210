@@ -19,7 +19,7 @@ Because there is no official API available through the API tool, data will be co
 | \# | Data Type | Description | Source |  |
 | ----- | ----- | ----- | ----- | ----- |
 | 1 | **Card Usage & Win Rate** | Card usage rate and win rate. | Third‑party analytics sites such as  [RoyaleAPI](https://royaleapi.com/?lang=en).  |  |
-| 2 | **Player Deck Data** | Battle logs and deck compositions for top ladder, ranked and ladder  | [RoyaleAPI](https://royaleapi.com/?lang=en) provides battle logs.| | 3 | **Card Data** | General Card Information about Clash Royale  | [Clash Royale API](https://developer.clashroyale.com/#/) provides basic information about game.|  
+| 2 | **Player Deck Data** | Battle logs and deck compositions for top ladder, ranked and ladder  | [RoyaleAPI](https://royaleapi.com/?lang=en) provides battle logs.| || 3 | **Card Data** | General Card Information about Clash Royale  | [Clash Royale API](https://developer.clashroyale.com/#/) provides basic information about game.| | 
 
 
 These datasets will enable a comprehensive analysis of the current meta. 
@@ -28,7 +28,7 @@ These datasets will enable a comprehensive analysis of the current meta.
 
 **Data Collection & Preprocessing** – This stage is about deciding what data to gather, from where, over what time window, and how to clean and structure it before analysis.
 
-* **Define Data Scope** – Choose a recent time window and specific competitive brackets (Top 1000 and Top 200\) so the data represents the current meta and allows comparison across skill levels.
+* **Define Data Scope** – Choose a recent time window (7 days) and specific competitive brackets (top 200, top 1000, ranked and ladder\) so the data represents the current meta and allows comparison across skill levels.
 
 * **Collect Usage and Win Rate Stats** – Pull each card’s usage rate and win rate for both brackets from third-party analytics sites and record them with consistent card naming.
 
@@ -48,9 +48,9 @@ These datasets will enable a comprehensive analysis of the current meta.
 
 * **Usage vs. Win Rate Relationship** – Plot and correlate usage rates with win rates for all cards to see whether more popular cards also tend to perform better.
 
-* **Cross Bracket Usage Comparison** – Compare card usage between Top 200 and Top 1000 to determine whether elite players favor a different set of cards.
+* **Cross Bracket Usage Comparison** – Compare card usage between top 200, top 1000, ranked and ladder to determine whether elite players favor a different set of cards.
 
-* **Cross Bracket Performance Comparison** – Compare card win rates between Top 200 and Top 1000 to see if top players achieve systematically better or worse results with specific cards.
+* **Cross Bracket Performance Comparison** – Compare card win rates between top 200, top 1000, ranked and ladder to see if top players achieve systematically better or worse results with specific cards.
 
 ## **Hypotheses and Statistical Tests**
 
