@@ -19,7 +19,7 @@ Because there is no official API available through the API tool, data will be co
 | \# | Data Type | Description | Source |  |
 | ----- | ----- | ----- | ----- | ----- |
 | 1 | **Card Usage & Win Rate** | Card usage rate and win rate. | Third‑party analytics sites such as  [RoyaleAPI](https://royaleapi.com/?lang=en).  |  |
-| 2 | **Player Deck Data** | Battle logs and deck compositions for top ladder, ranked and ladder  | [RoyaleAPI](https://royaleapi.com/?lang=en) provides battle logs. | 3 | **Card Data** | General Card Information about Clash Royale  | [Clash Royale API](https://developer.clashroyale.com/#/) provides basic information about game.|  |
+| 2 | **Player Deck Data** | Battle logs and deck compositions for top ladder, ranked and ladder  | [RoyaleAPI](https://royaleapi.com/?lang=en) provides battle logs.| | 3 | **Card Data** | General Card Information about Clash Royale  | [Clash Royale API](https://developer.clashroyale.com/#/) provides basic information about game.|  
 
 
 These datasets will enable a comprehensive analysis of the current meta. 
