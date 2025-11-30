@@ -2,11 +2,11 @@
 
 ## **Introduction**
 
-Clash Royale is a card based strategy game where developers routinely update cards to maintain game balance. This project explores the relationship between card usage among high level players and ranked players. By analyzing current card usage rates and win rates among top tier and ranked Clash Royale players, can infer which cards are strong or weak in practice and how top player and ranked players choice differ from the broader competitive player base. This approach provides insight into the effectiveness of the game's balance as it stands now, and can still indirectly highlight the impact of past balance decisions by revealing which cards dominate or underperform in the current meta.
+Clash Royale is a card based strategy game where developers routinely update cards to maintain game balance. This project explores the relationship between card  usage distribution and performance among top 200, top 1000, ranked and ladder players. By analyzing current card usage rates and win rates among top tier and ranked Clash Royale players, can infer which cards are strong or weak in practice and how top player and ranked players choice differ from the broader competitive player base. This approach provides insight into the effectiveness of the game's balance as it stands now, and can still indirectly highlight the impact of past balance decisions by revealing which cards dominate or underperform in the current meta.
 
 ## **Project Goal**
 
-The primary goal is to analyze the current Clash Royale meta by quantifying card usage and evaluating how it relates to card success among high level and ranked players. In particular, this project aims to identify which cards are most revalent in top tier and ranked gameplay and assess whether their popularity is justified by strong performance. Also, compare the behavior of the elite players with a slightly broader set of competitive players to see if the very top players favor different cards or achieve different results with those cards. In summary, the study will use current data to answer: Which cards are popular in the current meta, how well do those cards perform, and how does this differ between the top of the ladder and the broader competitive scene?
+The primary goal is to analyze the current Clash Royale meta by quantifying card usage and evaluating how it relates to card performance among top 200, top 1000, ranked and ladder players. In particular, this project aims to identify which cards are most revalent in top 200, top 1000, ranked and ladder player gameplay and assess whether their popularity is justified by strong performance. Also, compare the behavior of the elite players with a slightly broader set of competitive players to see if the very top players favor different cards or achieve different results with those cards. In summary, the study will use current data to answer: Which cards are popular in the current meta, how well do those cards perform, and how does this differ between the top of the ladder and the broader competitive scene?
 
 ## **Motivation**
 
@@ -19,12 +19,12 @@ Because there is no official API available through the API tool, data will be co
 | \# | Data Type | Description | Source |  |
 | ----- | ----- | ----- | ----- | ----- |
 | 1 | **Card Usage & Win Rate** | Card usage rate and win rate. | Third‑party analytics sites such as  [RoyaleAPI](https://royaleapi.com/?lang=en).  |  |
-| 2 | **Player Deck Data** | Battle logs and deck compositions for top ladder, ranked and ladder  | [RoyaleAPI](https://royaleapi.com/?lang=en) provides battle logs. |  |
+| 2 | **Player Deck Data** | Battle logs and deck compositions for top ladder, ranked and ladder  | [RoyaleAPI](https://royaleapi.com/?lang=en) provides battle logs. | 3 | **Card Data** | General Card Information about Clash Royale  | [Clash Royale API](https://developer.clashroyale.com/#/) provides basic information about game.
 
 
 These datasets will enable a comprehensive analysis of the current meta. 
 
-**Methodology (Headings in One Sentence Each)**
+**Methodology**
 
 **Data Collection & Preprocessing** – This stage is about deciding what data to gather, from where, over what time window, and how to clean and structure it before analysis.
 
