@@ -57,18 +57,17 @@ This step uses summaries and visualizations to understand patterns in the curren
 Based on the research questions and exploratory findings, we formulate the following concrete hypotheses to test statistically. Each hypothesis targets a specific aspect of the relationship between balance, usage, and performance in the current meta. We define null and alternative hypotheses for each and outline the planned statistical test to evaluate them:
 
        
+1. **Hypothesis 1:** Usage Distribution Across Skill Brackets
 
- **Hypothesis 1:** Usage Distribution Across Skill Brackets
-
-**Null Hypothesis:** Top 200, Top 1000, ladder and ranked players use the same set of cards to the same extent.
-
-**Alternative Hypothesis:** Top 200, Top 1000, ladder and ranked players have significantly different usage patterns.   
+     **Null Hypothesis:** Top 200, Top 1000, ladder and ranked players use the same set of cards to the same extent.
+     
+     **Alternative Hypothesis:** Top 200, Top 1000, ladder and ranked players have significantly different usage patterns.   
 
        
 
-**Hypothesis 2:** Card Performance Across Skill Brackets
+2. **Hypothesis 2:** Card Performance Across Skill Brackets
 
-**Null Hypothesis:** Card win rates are the same for Top 200, Top 1000, ladder and ranked players.
-
- **Alternative Hypothesis:** At least some cards have significantly different win rates between Top 200, Top 1000, ladder and ranked players.
-
+     **Null Hypothesis:** Card win rates are the same for Top 200, Top 1000, ladder and ranked players.
+     
+     **Alternative Hypothesis:** At least some cards have significantly different win rates between Top 200, Top 1000, ladder and ranked players.
+     
