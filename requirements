@@ -1,6 +1,33 @@
-pandas
-numpy
-matplotlib
-scipy
-requests
-beautifulsoup4
+# Core
+import numpy as np
+import pandas as pd
+
+# Visualization
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Scikit-learn: data splitting
+from sklearn.model_selection import train_test_split
+
+# Scikit-learn: preprocessing / feature engineering
+from sklearn.compose import ColumnTransformer
+from sklearn.preprocessing import OneHotEncoder
+
+# Scikit-learn: pipelines
+from sklearn.pipeline import Pipeline
+
+# Scikit-learn: models
+from sklearn.linear_model import LinearRegression, LogisticRegression
+from sklearn.ensemble import GradientBoostingRegressor, RandomForestClassifier
+
+# Scikit-learn: regression metrics
+from sklearn.metrics import mean_squared_error, r2_score
+
+# Scikit-learn: classification metrics
+from sklearn.metrics import (
+    accuracy_score,
+    f1_score,
+    confusion_matrix,
+    classification_report
+)
+
