@@ -114,7 +114,7 @@ Create a pipeline that applies the above preprocessing and then fits a linear re
 
 Next, train a Gradient Boosting Regressor on the same training data. This ensemble model can capture non linear relationships and interactions. After fitting, evaluate it on the test set using the same metrics.
 
-**. Regression (Predicting Card Win Rate)**
+**Regression (Predicting Card Win Rate)**
 
 * **Target:** WinPct
 
@@ -156,7 +156,7 @@ Train a logistic regression classifier with a multinomial setting. The model wil
 
 Also train a Random Forest classifier, an ensemble of decision trees, on the same data. This model can capture non linear relationships and typically handles feature interactions automatically. After training,  evaluate its performance similarly.
 
-**2\. Classification (Popularity Tier Prediction)**
+**Classification (Popularity Tier Prediction)**
 
 * **Target:** Popularity (created by tertiles of UsagePct via pd.qcut, labels \= Low / Medium / High)  
 * **Class Distribution:** Low \= 252, Medium \= 211, High \= 184  
