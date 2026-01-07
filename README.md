@@ -92,6 +92,8 @@ Based on the research questions and exploratory findings, we formulate the follo
   * No card passes this threshold.
 
   * Conclusion: After correcting for multiple comparisons, no card’s win rate pattern is significantly different across brackets under the approximated-counts model.
+
+  
 **Machine Learning Methods**
 
 The dataset contains card performance statistics across different player brackets (Top 200, Top 1000, All Ranked, Ladder). For each card in each bracket: UsagePct (percentage of decks using the card), WinPct (win rate when the card is in a deck), and Rating (an overall card strength rating).
