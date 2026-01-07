@@ -98,23 +98,23 @@ Based on the research questions and exploratory findings, we formulate the follo
 
 The dataset contains card performance statistics across different player brackets (Top 200, Top 1000, All Ranked, Ladder). For each card in each bracket: UsagePct (percentage of decks using the card), WinPct (win rate when the card is in a deck), and Rating (an overall card strength rating).
 
-## **Regression: Predicting Win Rate (WinPct)**
+**Regression: Predicting Win Rate (WinPct)**
 
 Build models to predict a card’s win percentage (WinPct) from its usage percentage (UsagePct), overall rating (Rating), and bracket category. The data will use one hot encoding for the Bracket feature to include it as variables. An 80/20 train test split is used. Two models are trained: a Linear Regression (baseline linear model) and a Gradient Boosting Regressor (a non linear ensemble model).Lastly, evaluate performance with the Root Mean Squared Error (RMSE) and R² score on the test set.
 
-### **Data Preparation and Train Test Split**
+**Data Preparation and Train Test Split**
 
 Select the features and target for regression, then split the dataset into training and testing sets .Ensure the random seed differs from that of the classification task. Also set up a preprocessing pipeline to one hot encode the Bracket feature while leaving numeric features unchanged.
 
-### **Linear Regression Model**
+**Linear Regression Model**
 
 Create a pipeline that applies the above preprocessing and then fits a linear regression model. This model will learn a linear combination of UsagePct, Rating, and bracket dummy features to predict WinPct. After training, evaluate the model on the test set and compute the RMSE and R² metrics:
 
-### **Gradient Boosting Regressor Model**
+**Gradient Boosting Regressor Model**
 
 Next, train a Gradient Boosting Regressor on the same training data. This ensemble model can capture non linear relationships and interactions. After fitting, evaluate it on the test set using the same metrics.
 
-### **. Regression (Predicting Card Win Rate)**
+**. Regression (Predicting Card Win Rate)**
 
 * **Target:** WinPct
 
@@ -134,7 +134,7 @@ Next, train a Gradient Boosting Regressor on the same training data. This ensemb
 
   * Highest importance feature: Rating (dominant driver in the fitted model), followed by bracket indicators and then UsagePct.
 
-## **Classification: Categorizing Card Popularity**
+**Classification: Categorizing Card Popularity**
 
 Classify each card’s popularity level (Low, Medium, High) based on its usage percentage. The data will create a categorical target by binning the UsagePct into three quantile based tiers. The features used for classification are UsagePct, WinPct, Rating, and the one hot encoded Bracket indicator. Two models are trained: a Multinomial Logistic Regression and a Random Forest Classifier. Evaluate these models with overall accuracy, macro averaged F1 score, and examine the confusion matrix for the Random Forest.
 
