@@ -138,25 +138,25 @@ Next, train a Gradient Boosting Regressor on the same training data. This ensemb
 
 Classify each card’s popularity level (Low, Medium, High) based on its usage percentage. The data will create a categorical target by binning the UsagePct into three quantile based tiers. The features used for classification are UsagePct, WinPct, Rating, and the one hot encoded Bracket indicator. Two models are trained: a Multinomial Logistic Regression and a Random Forest Classifier. Evaluate these models with overall accuracy, macro averaged F1 score, and examine the confusion matrix for the Random Forest.
 
-### **Creating the Popularity Category Target**
+**Creating the Popularity Category Target**
 
 The popularity classes using usage percentage quantiles. Specifically, split the UsagePct values into three groups of roughly equal size: the bottom \~33% as Low popularity, middle \~33% as Medium, and top \~33% as High. This is done using pd.qcut, which calculates quantile cut points then confirms the class distribution.
 
 This shows the dataset is divided into 252 low popularity, 211 medium popularity, and 184 high popularity instances (which is approximately one third in each, as intended). Predict this Popularity class using the card’s other metrics.
 
-### **Data Preparation and Train Test Split**
+**Data Preparation and Train Test Split**
 
 Prepare the feature matrix X and target y for classification. X includes the numeric features UsagePct, WinPct, Rating and the categorical Bracket. The target y is the new Popularity class. Perform an 80/20 stratified split (with random\_state=42 for reproducibility). Use a similar preprocessing pipeline to one hot encode the bracket feature.
 
-### **Multinomial Logistic Regression Model**
+**Multinomial Logistic Regression Model**
 
 Train a logistic regression classifier with a multinomial setting. The model will learn linear decision boundaries in the feature space to separate the Low, Medium and High classes. The pipeline (preprocessing \+ logistic regression) on the training data and then evaluate on the test set.
 
-### **Random Forest Classifier Model**
+**Random Forest Classifier Model**
 
 Also train a Random Forest classifier, an ensemble of decision trees, on the same data. This model can capture non linear relationships and typically handles feature interactions automatically. After training,  evaluate its performance similarly.
 
-### **2\. Classification (Popularity Tier Prediction)**
+**2\. Classification (Popularity Tier Prediction)**
 
 * **Target:** Popularity (created by tertiles of UsagePct via pd.qcut, labels \= Low / Medium / High)  
 * **Class Distribution:** Low \= 252, Medium \= 211, High \= 184  
@@ -172,7 +172,7 @@ Also train a Random Forest classifier, an ensemble of decision trees, on the sam
 ## 
 
 
-### **Limitations**
+**Limitations**
 
 * Only aggregated percentages (UsagePct, WinPct) were available, not raw battle counts.
 
