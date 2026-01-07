@@ -92,6 +92,83 @@ Based on the research questions and exploratory findings, we formulate the follo
   * No card passes this threshold.
 
   * Conclusion: After correcting for multiple comparisons, no card’s win rate pattern is significantly different across brackets under the approximated-counts model.
+## **Machine Learning Methods**
+
+The dataset contains card performance statistics across different player brackets (Top 200, Top 1000, All Ranked, Ladder). For each card in each bracket: UsagePct (percentage of decks using the card), WinPct (win rate when the card is in a deck), and Rating (an overall card strength rating).
+
+## **Regression: Predicting Win Rate (WinPct)**
+
+Build models to predict a card’s win percentage (WinPct) from its usage percentage (UsagePct), overall rating (Rating), and bracket category. The data will use one hot encoding for the Bracket feature to include it as variables. An 80/20 train test split is used. Two models are trained: a Linear Regression (baseline linear model) and a Gradient Boosting Regressor (a non linear ensemble model).Lastly, evaluate performance with the Root Mean Squared Error (RMSE) and R² score on the test set.
+
+### **Data Preparation and Train Test Split**
+
+Select the features and target for regression, then split the dataset into training and testing sets .Ensure the random seed differs from that of the classification task. Also set up a preprocessing pipeline to one hot encode the Bracket feature while leaving numeric features unchanged.
+
+### **Linear Regression Model**
+
+Create a pipeline that applies the above preprocessing and then fits a linear regression model. This model will learn a linear combination of UsagePct, Rating, and bracket dummy features to predict WinPct. After training, evaluate the model on the test set and compute the RMSE and R² metrics:
+
+### **Gradient Boosting Regressor Model**
+
+Next, train a Gradient Boosting Regressor on the same training data. This ensemble model can capture non linear relationships and interactions. After fitting, evaluate it on the test set using the same metrics.
+
+### **. Regression (Predicting Card Win Rate)**
+
+* **Target:** WinPct
+
+* **Features Used:** UsagePct, Rating, Bracket
+
+* **Train/Test Split:** 80/20 holdout (random\_state=10)
+
+* **Preprocessing:** One hot encoding of Bracket
+
+* **Models & Performance :**
+
+  * **Linear Regression:** RMSE \= **4.361**, R² \= **0.488**
+
+  * **Gradient Boosting Regressor:** RMSE \= **1.891**, R² \= **0.904**
+
+* **Model Interpretation (Gradient Boosting Feature Importances):**
+
+  * Highest importance feature: Rating (dominant driver in the fitted model), followed by bracket indicators and then UsagePct.
+
+## **Classification: Categorizing Card Popularity**
+
+Classify each card’s popularity level (Low, Medium, High) based on its usage percentage. The data will create a categorical target by binning the UsagePct into three quantile based tiers. The features used for classification are UsagePct, WinPct, Rating, and the one hot encoded Bracket indicator. Two models are trained: a Multinomial Logistic Regression and a Random Forest Classifier. Evaluate these models with overall accuracy, macro averaged F1 score, and examine the confusion matrix for the Random Forest.
+
+### **Creating the Popularity Category Target**
+
+The popularity classes using usage percentage quantiles. Specifically, split the UsagePct values into three groups of roughly equal size: the bottom \~33% as Low popularity, middle \~33% as Medium, and top \~33% as High. This is done using pd.qcut, which calculates quantile cut points then confirms the class distribution.
+
+This shows the dataset is divided into 252 low popularity, 211 medium popularity, and 184 high popularity instances (which is approximately one third in each, as intended). Predict this Popularity class using the card’s other metrics.
+
+### **Data Preparation and Train Test Split**
+
+Prepare the feature matrix X and target y for classification. X includes the numeric features UsagePct, WinPct, Rating and the categorical Bracket. The target y is the new Popularity class. Perform an 80/20 stratified split (with random\_state=42 for reproducibility). Use a similar preprocessing pipeline to one hot encode the bracket feature.
+
+### **Multinomial Logistic Regression Model**
+
+Train a logistic regression classifier with a multinomial setting. The model will learn linear decision boundaries in the feature space to separate the Low, Medium and High classes. The pipeline (preprocessing \+ logistic regression) on the training data and then evaluate on the test set.
+
+### **Random Forest Classifier Model**
+
+Also train a Random Forest classifier, an ensemble of decision trees, on the same data. This model can capture non linear relationships and typically handles feature interactions automatically. After training,  evaluate its performance similarly.
+
+### **2\. Classification (Popularity Tier Prediction)**
+
+* **Target:** Popularity (created by tertiles of UsagePct via pd.qcut, labels \= Low / Medium / High)  
+* **Class Distribution:** Low \= 252, Medium \= 211, High \= 184  
+* **Features Used:** UsagePct, WinPct, Rating, Bracket  
+* **Train/Test Split:** 80/20 stratified holdout (random\_state=42)  
+* **Preprocessing:** Standard scaling for numeric features \+ one hot encoding for Bracket   
+* **Models & Performance (holdout set):**  
+  * **Logistic Regression:** Accuracy \= **0.908**, Macro F1 \= **0.905**  
+  * **Random Forest (random\_state=42):** Accuracy \= **1.000**, Macro F1 \= **1.000**  
+* **Random Forest Confusion Matrix (test set; Low/Medium/High):**  
+  * Perfect diagonal classification: Low \= 51, Medium \= 42, High \= 37\.
+
+## 
+
 
 ### **Limitations**
 
